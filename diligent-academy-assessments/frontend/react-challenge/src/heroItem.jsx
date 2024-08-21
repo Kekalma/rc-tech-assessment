@@ -11,14 +11,14 @@ const HeroItem = ({hero}) =>{
     if(currentHero.available){
         return(
             <div className="hero-item" onClick={() => changeHeroAvailability()}>
-                <h4 style={{ color: 'green' }}>{currentHero.name}  {currentHero.id}  "Available"</h4>
+                <h4 style={{ color: 'green' }}>{currentHero.id}.     {currentHero.name}  "Available"</h4>
             </div>
         )
     }
     if(!currentHero.available){
         return(
             <div className="hero-item" onClick={() => changeHeroAvailability()}>
-                <h4 style={{ color: 'red' }}>{currentHero.name} {currentHero.id}</h4>
+                <h4 style={{ color: 'red' }}>{currentHero.id}.      {currentHero.name} </h4>
             </div>
         )
         
