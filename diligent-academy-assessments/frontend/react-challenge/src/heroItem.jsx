@@ -11,7 +11,7 @@ const HeroItem = ({hero}) =>{
     if(currentHero.available){
         return(
             <div className="hero-item" onClick={() => changeHeroAvailability()}>
-                <h4 style={{ color: 'green' }}>{currentHero.name}  {currentHero.id}  {currentHero.available}</h4>
+                <h4 style={{ color: 'green' }}>{currentHero.name}  {currentHero.id}  "Available"</h4>
             </div>
         )
     }
