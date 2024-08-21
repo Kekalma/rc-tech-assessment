@@ -1,0 +1,9 @@
+.hero-list {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr); /* Two columns of equal width */
+    gap: 1px; /* Spacing between the items */
+}
+
+.hero-item {
+    padding: 3px; 
+}

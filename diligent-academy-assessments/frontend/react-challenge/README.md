@@ -1,3 +1,4 @@
+Varga Bálint
 # React challenge
 
 Create a React component for listing heroes.
